@@ -7,6 +7,7 @@ from streamlit_option_menu import option_menu
 
 st.set_page_config(layout="wide")
 st.title("Circket Team Dashboard")
+st.markdown("This is Data Analysis Project using python streamlit in Data science ")
 
 df=pd.read_csv("cleanedfile.csv")
 
